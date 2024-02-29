@@ -1,0 +1,27 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 25px;
+  }
+
+.row1, .row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;   
+  }
+
+
+.col1, .col2 {
+    padding: 0;
+  }
+
+
+
+.col1 img, .col2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 25%;
+    height: auto;
+  }  
