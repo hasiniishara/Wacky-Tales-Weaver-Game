@@ -1,40 +1,56 @@
 <!DOCTYPE html>
-<html lange="en">
+<html lang="en">
 <head>
-    <meta charset=""UTF-8>
+    <meta charset="UTF-8">
     <title>Wacky Tales Weaver</title>
     <link rel="stylesheet" href="homeStyle.css">
 </head>
 <body>
     <div class="header">
-    <h1><b>Welcome to the Fairy Tale!</b></h1>
+        <h1><b>Welcome to the Fairy Tale!</b></h1>
     </div>
-    <div id="story-images">
-        <div class="row1">
-            <div class="col1">
-                <button>
-                    <img class="imgClass" src="images/image1.jpg">
-                </button>
-            </div>
-            <div class="col2">
-                <button>
-                    <img class="imgClass" src="images/image2.jpg">
-                </button>
+    <div id="container">
+        <div id="left-column">
+            <div id="story-images">
+                <div class="col1">
+                    <button onclick="viewStory('img1')">
+                        <img class="imgClass" src="images/image1.jpg" alt="Image 1">
+                    </button>
+                </div>
+                <div class="col1">
+                    <button onclick="viewStory('img2')">
+                        <img class="imgClass" src="images/image2.jpg" alt="Image 2">
+                    </button>
+                </div>
+                <div class="col1">
+                    <button onclick="viewStory('img3')">
+                        <img class="imgClass" src="images/image3.jpg" alt="Image 3">
+                    </button>
+                </div>
+                <div class="col1">
+                    <button onclick="viewStory('img4')">
+                        <img class="imgClass" src="images/image4.jpg" alt="Image 4">
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="row2">
-            <div class="col1">
-                <button>
-                    <img class="imgClass" src="images/image3.jpg">
-                </button>
-            </div>
-            <div class="col2">
-                <button>
-                    <img class="imgClass" src="images/image4.jpg">
-                </button>
+        <div id="right-column">
+            <div id="story-display">
+                <div class="col2">
+                    <p id="c1"></p>
+                </div>
+                <div class="col2">
+                    <p id="c2"></p>
+                </div>
+                <div class="col2">
+                    <p id="c3"></p>
+                </div>
+                <div class="col2">
+                    <p id="c4"></p>
+                </div>
             </div>
         </div>
     </div>
-    <div id="story-display"></div>
+    <script src="homeAction.js"></script>
 </body>
 </html>
