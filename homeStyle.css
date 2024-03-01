@@ -37,3 +37,14 @@
 #c1, #c2, #c3, #c4 {
     font-size: 19px;
 }
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
+#restart {
+    display: block;
+    margin: 0 auto; 
+    background-color: green;
+}

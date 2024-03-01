@@ -17,3 +17,11 @@ function viewStory(image){
             break;
     }
 }
+
+function resetStory(){
+    document.getElementById("c1").innerText ="";
+    document.getElementById("c2").innerText ="";
+    document.getElementById("c3").innerText ="";
+    document.getElementById("c4").innerText ="";
+
+}
